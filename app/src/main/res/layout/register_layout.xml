@@ -1,0 +1,132 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="5dp"
+    tools:ignore="MissingConstraints">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+
+
+            >
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:hint="الاسم"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+
+            android:orientation="horizontal"
+            android:showDividers="middle"
+
+
+            >
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="العنوان"
+
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+
+
+            android:orientation="horizontal"
+            android:showDividers="middle"
+
+
+            >
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edit_birthdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:digits="123456789-"
+                android:hint="تاريخ الميلاد"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+
+
+            android:orientation="horizontal"
+            android:showDividers="middle"
+
+
+            >
+
+            <Button
+                android:id="@+id/sign_in"
+
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/registeritem"
+                android:text="S I G N  I N"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.764" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</android.support.v7.widget.CardView>
